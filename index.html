@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <title>Página ejemplo de AJAX</title>
+</head>
+<body>
+
+    <div class="container mt-5">
+
+        <p align="center">
+            <a  href="index.html" class="badge badge-light">Salones | </a>
+            <a href="index_1.html" class="badge badge-light">Clientes |</a>
+            <a href="index_2.html" class="badge badge-light">Mensajes |</a>
+        </p>
+
+        <h1 class="text-center mb-3">Lista de salones</h1>
+
+
+        <p id="peticion"></p>
+
+        <button id="guardar" class="btn btn-primary mb-3"> Guardar</button>
+        <button id="modificar" class="btn btn-dark mb-3"> Modificar</button>
+        <button id="borrar" class="btn btn-secondary mb-3"> Eliminar</button>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Código
+
+                    </th>
+                    <th>
+                        Encargado
+                        
+                    </th>
+                    <th>
+                        Capacidad
+                        
+                    </th>
+                    <th>
+                        Tipo
+                        
+                    </th>
+
+                    <th>
+                        Nombre
+                        
+                    </th>
+
+
+                </tr>
+
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+
+
+        </table>
+
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
